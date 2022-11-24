@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C479C56292E6148001D67D2 /* ExerciseGuideAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C479C55292E6148001D67D2 /* ExerciseGuideAnimation.swift */; };
 		8C979F76292B763700F02B00 /* iBreatheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C979F75292B763700F02B00 /* iBreatheApp.swift */; };
 		8C979F78292B763700F02B00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C979F77292B763700F02B00 /* ContentView.swift */; };
 		8C979F7A292B763800F02B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C979F79292B763800F02B00 /* Assets.xcassets */; };
 		8C979F7D292B763800F02B00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C979F7C292B763800F02B00 /* Preview Assets.xcassets */; };
+		8CB5A9C8292B77EF00E193A8 /* ExerciseButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A9C7292B77EF00E193A8 /* ExerciseButtons.swift */; };
+		8CF2C19E292CC1A7003A0242 /* ExerciseGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF2C19D292CC1A7003A0242 /* ExerciseGuide.swift */; };
+		8CF2C1A0292CCD24003A0242 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF2C19F292CCD24003A0242 /* CountdownTimer.swift */; };
+		8CF2C1A2292CE436003A0242 /* CTFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF2C1A1292CE436003A0242 /* CTFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C479C55292E6148001D67D2 /* ExerciseGuideAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseGuideAnimation.swift; sourceTree = "<group>"; };
 		8C979F72292B763700F02B00 /* iBreathe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBreathe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C979F75292B763700F02B00 /* iBreatheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBreatheApp.swift; sourceTree = "<group>"; };
 		8C979F77292B763700F02B00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8C979F79292B763800F02B00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C979F7C292B763800F02B00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CB5A9C7292B77EF00E193A8 /* ExerciseButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseButtons.swift; sourceTree = "<group>"; };
+		8CF2C19D292CC1A7003A0242 /* ExerciseGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseGuide.swift; sourceTree = "<group>"; };
+		8CF2C19F292CCD24003A0242 /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
+		8CF2C1A1292CE436003A0242 /* CTFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 			isa = PBXGroup;
 			children = (
 				8C979F7C292B763800F02B00 /* Preview Assets.xcassets */,
+				8CB5A9C7292B77EF00E193A8 /* ExerciseButtons.swift */,
+				8CF2C19D292CC1A7003A0242 /* ExerciseGuide.swift */,
+				8CF2C19F292CCD24003A0242 /* CountdownTimer.swift */,
+				8CF2C1A1292CE436003A0242 /* CTFunction.swift */,
+				8C479C55292E6148001D67D2 /* ExerciseGuideAnimation.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF2C19E292CC1A7003A0242 /* ExerciseGuide.swift in Sources */,
+				8C479C56292E6148001D67D2 /* ExerciseGuideAnimation.swift in Sources */,
 				8C979F78292B763700F02B00 /* ContentView.swift in Sources */,
+				8CB5A9C8292B77EF00E193A8 /* ExerciseButtons.swift in Sources */,
+				8CF2C1A0292CCD24003A0242 /* CountdownTimer.swift in Sources */,
 				8C979F76292B763700F02B00 /* iBreatheApp.swift in Sources */,
+				8CF2C1A2292CE436003A0242 /* CTFunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,18 +9,41 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, worlds!")
+        
+        GeometryReader { g in
+            
+            ZStack() {
+                
+                VStack(alignment: .leading) {
+                    
+                    Text("I need to...")
+                        .frame(width: g.size.width, alignment: .leading)
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(.black)
+                        .multilineTextAlignment(.leading)
+                        .padding(.bottom, 16.0)
+                    
+                    ExerciseButtons()
+                    
+                }
+                
+                ExerciseGuide()
+                
+                CountdownTimer()
+                
+            }
+            
         }
-        .padding()
+        
+        .padding(.top, 32.0)
+        .padding(.horizontal, 16)
+        
     }
 }
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
-}
